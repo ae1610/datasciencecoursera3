@@ -1,0 +1,29 @@
+fcn = function to run R code
+feats = reads the list of features
+testfeats = reads the measurements recorded from the test group associated to features
+trainfeats = reads the measurements recorded from the train group associated to features
+testact = reads the activities associated to the test group measurements
+trainact = reads the activities associated to the train group measurements
+testsub = reads the subjects associated to the test group measurements
+trainsub = reads the subjects assicated to the train group measurements
+filepath1 = file path for test files
+filepath2 = file path for train files
+testfiles = lists the files in the test folder
+trainfiles = lists the files in the train folder
+testlength = gives number of files in test folder
+trainlength = gives number of files in train folder
+dftest = empty data frame to write to in for loop reading test files
+dftrain = empty data frame to write to in for loop reading train files
+df1 = new data frame reading individual files
+dfm = calculates row means of individual files
+subjects = complete list of test and train subjects associated to all measurements
+activities = complete list of test and train activities associated to all measurements
+ttfeats = combined list of all features associated to measurements
+testsigs = list of all inertial signal test measurement means
+trainsigs= list of all intertial signal train measurement means
+ttsigs = combined list of all inertial singal train measurement means
+colnames = renames columns
+table = final tidied table of measurements
+
+
+}
